@@ -3,6 +3,8 @@
 <li>If you'd like to view live sensor data on a remote sever, check out: </li>
 https://github.com/mdrolet01/upm-rotary-http.git
 <h2>Getting Started:</h2>
+
+![upSquared](https://github.com/mdrolet01/upm-rotary-mqtt-remote/blob/master/images/upSquared.jpg)
 First, you will need an UpSquared Board with the GROVE kit<br>
 Connect the GROVEPI shield to the board <br>
 Plug in the Rotary sensor to A0 (Analog pin 0)<br>
