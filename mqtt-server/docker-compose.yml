@@ -1,0 +1,20 @@
+version: '2'
+services:
+  nodeserv:
+    image: nws:latest
+    ports:
+      - 8000:8000
+    restart: always
+    environment:
+      MQTTServer_URL: mqttserv
+    networks:
+      - bridge-network
+  mqttserv:
+    image: eclipse-mosquitto
+    ports:
+      - 1883:1883
+    networks:
+      - bridge-network
+networks:
+    bridge-network:
+     driver: bridge

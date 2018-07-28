@@ -1,0 +1,13 @@
+version: '2'
+services:
+  pythonclient:
+    image: mqttpy:latest
+    restart: always
+    environment:
+      MQTTServer_URL: 'localhost' #Change to IP address of remote server
+    privileged: true 
+    networks:
+      - bridge-network
+networks:
+    bridge-network:
+     driver: bridge
