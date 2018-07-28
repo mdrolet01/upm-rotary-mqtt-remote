@@ -4,10 +4,10 @@
 <h2>Getting Started:</h2>
 
 ![upSquared](https://github.com/mdrolet01/upm-rotary-mqtt-remote/blob/master/images/upSquared.jpg)<br>
-First, you will need an UpSquared Board with the GROVE kit
-Connect the GROVEPI shield to the board
-Plug in the Rotary sensor to A0 (Analog pin 0)
-Make sure docker engine is installed on your computer
+First, you will need an UpSquared Board with the GROVE kit<br>
+Connect the GROVEPI shield to the board<br>
+Plug in the Rotary sensor to A0 (Analog pin 0)<br>
+Make sure docker engine is installed on your computer<br>
 
 <h2>Instructions:</h2>
 Since our Docker containers need to access the ports on your local device, you will have to kill any processes using ports 1883 (MQTT), 8000 (Web Server), and 27017 (MongoDB). You can accomplish this with the following commands:
